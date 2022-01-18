@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#2196f3">
+        <title>Doce de Mel</title>
+        <link rel="stylesheet" href="css/framework7.bundle.min.css">
+        <link rel="stylesheet" href="css/framework7-icons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="iconfont/material-icons.css">
+    </head>
+    <body>
+
+        <div id="app">
+
+            <div class="view view-main">
+
+                <div data-name="home" class="page">  
+
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                            <div class="navbar-inner red_c">
+                            <div class="title text-color-white">
+                                <img src="img/honey-jar.png" class="imgLogo">
+                                Doce de Mel
+                            </div>
+                            <div class="right logout">
+                                <a href="/login/" class="text-color-white margin-right"><i class="f7-icons">square_arrow_right</i></a>
+                            </div>
+                            </div>
+                        </div><!-- FIM NAVBAR --> 
+      
+                        <div class="page-content">
+                            <div class="block">
+                                <h4 class="text-align-center">
+                                  Escolha os sabores e as quatidades desejadas. <br>
+                                  Lembrando que em caso de entrega, acima de 7 unidades é cobrado uma taxa de R$ 3,00. <br>
+                                </h4>
+                                <div class="list accordion-list">
+                                    <ul>
+                                      <li class='accordion-item'>
+                                        <a href='#' class='item-content item-link'>
+                                            <div class='item-inner'>
+                                                <div class='item-title'>
+                                                    <strong>Prestígio</strong>
+                                                    <input type="hidden" name="prestigio" id="prestigio" value="Prestígio">
+                                                </div>
+                                                <span class="badge color-red">R$ 5,00</span>
+                                                <input type="hidden" name="valorPrestigio" id="valorPrestigio" value="5.00">
+                                            </div>
+                                        </a>
+                                        <div class='accordion-item-content'>
+                                            <div class='row'>
+                                                <div class='imgSabor col'>
+                                                    <img src='img/Prestigio.jpg'>
+                                                </div>
+                                                <div class='info-encomendar col text-align-center'>
+                                                    <strong>Informe a quantidade</strong>
+                                                    <div class='stepper stepper-small stepper-fill stepper-init color-orange margin-top'>
+                                                        <div class='stepper-button-minus'></div>
+                                                        <div class='stepper-input-wrap'>
+                                                            <input type='text' name="quantPristigio" id="quantPristigio" value='0' min='0' max='50' step='1' readonly>
+                                                        </div>
+                                                        <div class='stepper-button-plus'></div>
+                                                    </div>
+                                                    <button class='button button-small button-outline color-orange margin-top' id="btn-adicionar1">Adicionar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class='accordion-item'>
+                                        <a href='#' class='item-content item-link'>
+                                            <div class='item-inner'>
+                                                <div class='item-title'>
+                                                    <strong>Doce de Leite</strong>
+                                                    <input type="hidden" name="doceLeite" id="doceLeite" value="Doce de leite">
+                                                </div>
+                                                <span class="badge color-red">R$ 5,00</span>
+                                                <input type="hidden" name="valorDCL" id="valorDCL" value="5.00">
+                                            </div>
+                                        </a>
+                                        <div class='accordion-item-content'>
+                                            <div class='row'>
+                                                <div class='imgSabor col'>
+                                                    <img src='img/Doce-de-leite.jpg'>
+                                                </div>
+                                                <div class='info-encomendar col text-align-center'>
+                                                    <strong>Informe a quantidade</strong>
+                                                    <div class='stepper stepper-small stepper-fill stepper-init color-orange margin-top'>
+                                                        <div class='stepper-button-minus'></div>
+                                                        <div class='stepper-input-wrap'>
+                                                            <input type='text' name="quantDCL" id="quantDCL" value='0' min='0' max='50' step='1' readonly>
+                                                        </div>
+                                                        <div class='stepper-button-plus'></div>
+                                                    </div>
+                                                    <button class='button button-small button-outline color-orange margin-top' id="btn-adicionar2">Adicionar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class='accordion-item'>
+                                        <a href='#' class='item-content item-link'>
+                                            <div class='item-inner'>
+                                                <div class='item-title'>
+                                                    <strong>Brigadeiro</strong>
+                                                    <input type="hidden" name="brigadeiro" id="brigadeiro" value="Brigadeiro">
+                                                </div>
+                                                <span class="badge color-red">R$ 5,00</span>
+                                                <input type="hidden" name="valorBrigadeiro" id="valorBrigadeiro" value="5.00">
+                                            </div>
+                                        </a>
+                                        <div class='accordion-item-content'>
+                                            <div class='row'>
+                                                <div class='imgSabor col'>
+                                                    <img src='img/Brigadeiro.jpg'>
+                                                </div>
+                                                <div class='info-encomendar col text-align-center'>
+                                                    <strong>Informe a quantidade</strong>
+                                                    <div class='stepper stepper-small stepper-fill stepper-init color-orange margin-top'>
+                                                        <div class='stepper-button-minus'></div>
+                                                        <div class='stepper-input-wrap'>
+                                                            <input type='text' name="quantBrigadeiro" id="quantBrigadeiro" value='0' min='0' max='50' step='1' readonly>
+                                                        </div>
+                                                        <div class='stepper-button-plus'></div>
+                                                    </div>
+                                                    <button class='button button-small button-outline color-orange margin-top' id="btn-adicionar3">Adicionar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class='accordion-item'>
+                                        <a href='#' class='item-content item-link'>
+                                            <div class='item-inner'>
+                                                <div class='item-title'>
+                                                    <strong>Nutella</strong>
+                                                    <input type="hidden" name="nutella" id="nutella" value="Nutella">
+                                                </div>
+                                                <span class="badge color-red">R$ 6,00</span>
+                                                <input type="hidden" name="valorNutella" id="valorNutella" value="6.00">
+                                            </div>
+                                        </a>
+                                        <div class='accordion-item-content'>
+                                            <div class='row'>
+                                                <div class='imgSabor col'>
+                                                    <img src='img/Nutella.jpg'>
+                                                </div>
+                                                <div class='info-encomendar col text-align-center'>
+                                                    <strong>Informe a quantidade</strong>
+                                                    <div class='stepper stepper-small stepper-fill stepper-init color-orange margin-top'>
+                                                        <div class='stepper-button-minus'></div>
+                                                        <div class='stepper-input-wrap'>
+                                                            <input type='text' value='0' name="quantNutella" id="quantNutella" min='0' max='50' step='1' readonly>
+                                                        </div>
+                                                        <div class='stepper-button-plus'></div>
+                                                    </div>
+                                                    <button class='button button-small button-outline color-orange margin-top' id="btn-adicionar4">Adicionar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class='accordion-item'>
+                                        <a href='#' class='item-content item-link'>
+                                            <div class='item-inner'>
+                                                <div class='item-title'>
+                                                    <strong>Leite Ninho</strong>
+                                                    <input type="hidden" name="leiteNinho" id="leiteNinho" value="Leite Ninho">
+                                                </div>
+                                                <span class="badge color-red">R$ 6,00</span>
+                                                <input type="hidden" name="valorLEN" id="valorLEN" value="6.00">
+                                            </div>
+                                        </a>
+                                        <div class='accordion-item-content'>
+                                            <div class='row'>
+                                                <div class='imgSabor col'>
+                                                    <img src='img/Leite-ninho.jpg'>
+                                                </div>
+                                                <div class='info-encomendar col text-align-center'>
+                                                    <strong>Informe a quantidade</strong>
+                                                    <div class='stepper stepper-small stepper-fill stepper-init color-orange margin-top'>
+                                                        <div class='stepper-button-minus'></div>
+                                                        <div class='stepper-input-wrap'>
+                                                            <input type='text' value='0' name="quantLEN" id="quantLEN" min='0' max='50' step='1' readonly>
+                                                        </div>
+                                                        <div class='stepper-button-plus'></div>
+                                                    </div>
+                                                    <button class='button button-small button-outline color-orange margin-top' id="btn-adicionar5">Adicionar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <a href="/pedidosClientes/" class="col-50"><button class="button button-fill red_c">Ver meus pedidos</button></a>
+                                    <button class="col-50 button button-fill red_c" id="continuar">Continuar</button>
+                                </div>
+                                <br>
+                                <a href="/cadastro/"><button class="col button button-fill red_c">Editar Perfil</button></a>
+                            </div>                 
+                        </div>
+                        <!-- Tela de Splash -->
+                        <div class="popup popup-inicial">
+                            <div class="block">
+                              <div class="row content-abertura text-center">
+                                <div class="col-100 img-splash-logo">
+                                  <img src="img/logoDoceMel.jpg">
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- ************* -->
+                </div>
+            </div>
+
+        </div>
+
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/framework7.bundle.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+
+    </body>
+</html>

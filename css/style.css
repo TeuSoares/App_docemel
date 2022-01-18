@@ -1,0 +1,203 @@
+/* Zoom */
+.page{
+    background-color: #ffff!important;
+}
+.background-login{
+    background-color: #b93d23!important;
+}
+.background-login .list ul{
+    background: none!important;
+}
+.background-login .list .item-floating-label, .list .item-label{
+    color: #000!important;
+    font-weight: bold;
+}
+.background-login .list input::placeholder,.background-login .list input{
+    color: #fff!important;
+}
+.apresentacao{
+    background-color: #813d14!important;
+}
+.swiper-pagination{
+    position: static!important;
+    margin-right: 5rem;
+}
+span.swiper-pagination-bullet{
+    margin: 0 4px;
+}
+.m-2{
+    margin: 1rem!important;
+}
+.text-dark{
+    color: #3c3b3b;
+}
+.swiper-slide{
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.pedidos .accordion-item-content {
+    font-size: var(--f7-list-item-title-font-size)!important;
+}
+.formatDisplay .swiper-slide{
+    font-size: 1em;
+    font-weight: 300;
+    display: block;
+    justify-content: center;
+}
+.text-center{
+    text-align: center!important;
+    width:100%;
+}
+.small{
+    font-size: 0.6em;
+}
+.title{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.text-lower{
+    text-transform: none;
+}
+.text-blue{
+    color: #007aff;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+/* .navbar-inner{
+    background-color: #000!important;
+    color: #fff;
+} */
+
+.text-white{
+    color:white;
+}
+.text-black{
+    color: #000!important;
+}
+.red_c{
+    background-color: #d63a1c!important;
+}
+.bg-pink{
+    background:#320b50;
+}
+.login .icon-visi{
+    display: none;
+}
+.tamanho-icon .f7-icons{
+    margin-top: 10px;
+    font-size: 1.4em;
+} 
+.font-list{
+    font-size: .9em!important;
+}
+.encomendar .simple-list li{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.encomendar .list .item-content{
+    padding-left: 0!important;
+}
+.encomendar .list .item-inner{
+    padding-right: 0!important;
+}
+
+.f7-icons.login{
+	font-size:3rem;
+}
+
+/* Formatando imagem */
+.camera{
+    width: 180px;
+    height: 150px;
+    margin: 0 auto;
+}
+.camera img{
+    width: 100%;
+    height: auto;
+}
+
+#footer{    
+    position:absolute;
+    bottom:0; 
+    width:100%;
+    margin-top: 10px;
+}
+
+.imgLogo{
+    width: 15%;
+    position: relative;
+    top: 5px;
+}
+.imgSabor{
+    width: 130px;
+    height: 130px;
+}
+.imgSabor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.valorPagarSabor{
+    font-size: 1.1em;
+}
+.stepper-button, .stepper-button-minus, .stepper-button-plus{
+    width: 56px!important;
+}
+.color-total {
+    color: #ec0606;
+}
+.encomendar .item-inner{
+    position: static!important;
+}
+.block-pedidos{
+    display: block!important;
+    margin-left: 10px!important;
+}
+.encomendar .list .item-inner{
+    width: auto!important;
+}
+.badge{
+    font-size: .9em!important;
+    font-weight: bold!important;
+}
+
+/* Tela de splash */
+.popup.popup-inicial.modal-in{
+    background-color: #b93d23;
+}
+.content-abertura{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.img-splash-logo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-splash-logo2 img{
+    width: 100%;
+    border-radius: 50%;
+}
+.pedidos .list .item-content{
+    display: block!important;
+}
+.font-list .list{
+    font-size: 1em!important;
+}

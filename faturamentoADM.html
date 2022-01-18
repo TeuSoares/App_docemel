@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#2196f3">
+        <title>Doce de Mel</title>
+        <link rel="stylesheet" href="css/framework7.bundle.min.css">
+        <link rel="stylesheet" href="css/framework7-icons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="iconfont/material-icons.css">
+    </head>
+    <body>
+
+        <div id="app">
+
+            <div class="view view-main">
+
+                <div data-name="adm" class="page">  
+
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner red_c">
+                          <div class="title text-color-white">
+                              <img src="img/honey-jar.png" class="imgLogo">
+                              Doce de Mel
+                          </div>
+                          <div class="right logout">
+                              <a href="/login/" class="text-color-white margin-right"><i class="f7-icons">square_arrow_right</i></a>
+                          </div>
+                        </div>
+                    </div><!-- FIM NAVBAR -->
+
+                      <div class="page-content">
+                        <div class="block">
+                          <h2 class="text-align-center">
+                              Faturamento do mês
+                          </h2>
+                          <div class="list">
+                              <ul>
+                                  <span id="saboresVendidos"></span>
+                                  <span id="faturamento"></span>
+                              </ul>
+                          </div>
+                          <div class="row">
+                            <a href="/adm/" class="col"><button class="button button-fill red_c">Faturamento</button></a>
+                            <a href="/pedidos/" class="col"><button class="button button-fill red_c">Pedidos</button></a>
+                          </div>
+                        </div> 
+                      </div>  
+                </div>
+
+            </div>
+
+        </div>
+            
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/framework7.bundle.min.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

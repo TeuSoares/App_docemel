@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#2196f3">
+        <title>Meu primeiro App</title>
+        <link rel="stylesheet" href="css/framework7.bundle.min.css">
+        <link rel="stylesheet" href="css/framework7-icons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="iconfont/material-icons.css">
+    </head>
+    <body>
+
+        <div id="app">
+
+            <div class="view view-main">
+
+                <div data-name="apresentacao" class="page apresentacao">  
+
+                    <div class="page-content">
+                        
+                        <div data-pagination='{"el": ".swiper-pagination"}' class="swiper-container swiper-init">
+
+                            <div class="swiper-pagination margin-top"></div>
+                            
+                            <div class="swiper-wrapper">
+                                
+                                <div class="swiper-slide">
+                                    <div class="block">
+                                        <div class="img img-splash-logo">
+                                            <img src="img/imagem1.jpg">
+                                        </div>
+                                        <div class="row margin-top">
+                                            <div class="col title text-center text-color-yellow">Aprecie sem moderação</div>
+                                        </div>
+                                        <p class="text-center text-color-white">Faça sua escolha entre nossos diversos sabores.</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block">
+                                        <div class="img img-splash-logo2">
+                                            <img src="img/imagem4.jpg">
+                                        </div>
+                                        <div class="row margin-top">
+                                            <div class="col title text-center text-color-yellow">Fazemos entregas em todos os bairros.</div>
+                                        </div>
+                                        <p class="text-center text-color-white">Consulte nossa taxa de entrega</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block">
+                                        <div class="img">
+                                            <img src="img/imagem7.png">
+                                        </div>
+                                        <div class="row margin-top">
+                                            <div class="col title text-center text-color-yellow">Não perca seu tempo!!</div>
+                                        </div>
+                                        <p class="text-center text-color-white">Agora faça já o seu cadastro e garanta já o seu pão de mel. Se você já tiver um cadastro, basta realizar o login.</p>
+                                        <div class="row">
+                                           <a href="/login/" class="col"><button class="button button-small button-outline color-yellow">Entrar</button></a> 
+                                           <a href="/cadastro/" class="col"><button class="button button-small button-outline color-yellow">Cadastre-se</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/framework7.bundle.min.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

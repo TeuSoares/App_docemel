@@ -1,0 +1,77 @@
+<div class="page login" data-name="recuperarSenha">
+    <!-- Barra Superior -->
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner red_c">
+        <div class="left">
+          <a href="" class="link back">
+            <i class="icon f7-icons text-white"> arrow_left</i>                  
+          </a>
+        </div>
+        <div class="title text-white">Recuperar sua senha</div>
+      </div>
+    </div>
+    <!-- Fim NAV Bar -->
+    <div class="page-content">
+      <div class="block"> 
+  
+        <form class="list" id="Formcadastro">
+          <ul>
+
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Informe seu usuário *</div>
+                  <div class="item-input-wrap">
+                    <input class="text-color-black" type="text" name="userRecuperar" id="userRecuperar" placeholder="usuário cadastrado">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Informe seu número de celular cadastrado *</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="celularRecuperar" id="celularRecuperar" data-mask="(00) 00000-0000" placeholder="seu celular cadastrado">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="recuperarSenha">
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Nova senha *</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="senhaNova" id="senhaNova" placeholder="******">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="recuperarSenha">
+                <div class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Confirmar nova senha *</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="senhaNovaConf" id="senhaNovaConf" placeholder="******">
+                    </div>
+                  </div>
+                </div>
+            </li>
+
+          </ul> 
+          </form> 
+            <button class="col button button-fill red_c confDados" id="confDados">
+                Confirmar Dados
+            </button>
+            <button class="col button button-fill red_c alterarSenha" id="alterarSenha">
+                Alterar senha
+            </button>   
+          <div id="sql"></div>        
+        </div>
+      </div>
+  
+  </div> <!-- FIM CLASS PAGE -->
